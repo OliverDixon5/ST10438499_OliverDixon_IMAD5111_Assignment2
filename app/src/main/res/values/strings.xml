@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Assignment 2 IMAD5111</string>
+    <string name="app_Header">Welcome to Snoopy\'s Tamagochi app!</string>
+    <string name="start_Button">Start</string>
+    <string name="start_ImageDescription">What the pet looks like</string>
+
+    <string name="play_Score">0</string>
+    <string name="clean_Score">0</string>
+    <string name="feed_Score">0</string>
+
+    <string name="play_Text">Happy</string>
+    <string name="clean_Text">Clean</string>
+    <string name="feed_Text">Hunger</string>
+
+    <string name="play_Button">Play</string>
+    <string name="clean_Button">Clean</string>
+    <string name="feed_Button">Feed</string>
+
+    <string name="circle_JPG">Circle to outline the pet scores</string>
+    <string name="base_Pet">This will be the placeholder for the pet and will change based on the buttons pressed</string>
+
+
+
+
 </resources>
