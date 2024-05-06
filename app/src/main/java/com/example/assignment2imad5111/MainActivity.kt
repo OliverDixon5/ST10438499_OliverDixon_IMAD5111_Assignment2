@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         val goToActivityMain2Button = findViewById<Button>(R.id.goToActivityMain2Button)
 
         goToActivityMain2Button.setOnClickListener {
-            //val intentGoToActivityMain2Button = Intent(this, activitymain::class.java)
-            //startActivity(intentGoToActivityMain2Button)
+            val intentGoToActivityMain2Button = Intent(this, MainActivity2::class.java)
+            startActivity(intentGoToActivityMain2Button)
 
         }
     }

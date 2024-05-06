@@ -18,27 +18,31 @@ class MainActivity2 : AppCompatActivity() {
     @SuppressLint("MissingInflatedId", "CutPasteId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity2)
 
         val placeholderImage = findViewById<ImageView>(R.id.placeholderImage)
+        val layoutParams = placeholderImage.layoutParams
+        layoutParams.width = 800
+        layoutParams.height = 800
+        placeholderImage.layoutParams = layoutParams
 
-        val eatingButton = findViewById<Button>(R.id.playButton)
-        val playingButton = findViewById<Button>(R.id.feedButton)
+        val eatingButton = findViewById<Button>(R.id.feedButton)
+        val playingButton = findViewById<Button>(R.id.playButton)
         val washingButton = findViewById<Button>(R.id.cleanButton)
 
         val hungerCount = findViewById<TextView>(R.id.hungerCount)
-        val happyCount = findViewById<TextView>(R.id.hungerCount)
-        val washingCount = findViewById<TextView>(R.id.hungerCount)
+        val happyCount = findViewById<TextView>(R.id.happyCount)
+        val washingCount = findViewById<TextView>(R.id.cleanCount)
 
         placeholderImage.setImageResource(R.drawable.snoopy_png95)
 
         eatingButton.setOnClickListener {
-            placeholderImage.setImageResource(R.drawable.playingimage1)
+            placeholderImage.setImageResource(R.drawable.eatingimage1)
             clickHungerCount++
             hungerCount.text = clickHungerCount.toString()
         }
         playingButton.setOnClickListener {
-            placeholderImage.setImageResource(R.drawable.eatingimage1)
+            placeholderImage.setImageResource(R.drawable.playingimage1)
             clickHappyCount++
             happyCount.text = clickHappyCount.toString()
         }
@@ -47,6 +51,5 @@ class MainActivity2 : AppCompatActivity() {
             clickWashingCount++
             washingCount.text = clickWashingCount.toString()
         }
-
     }
 }
