@@ -10,10 +10,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //defining the variable and finding the button that it will connect with.
         val goToActivityMain2Button = findViewById<Button>(R.id.goToActivityMain2Button)
 
+        // using the variable button to start the next activity once the button is pressed.
         goToActivityMain2Button.setOnClickListener {
             val intentGoToActivityMain2Button = Intent(this, MainActivity2::class.java)
+
             startActivity(intentGoToActivityMain2Button)
 
         }
