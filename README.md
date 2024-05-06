@@ -30,4 +30,5 @@ I had to define alot of string names for the componets and i added some image de
 
 ![image](https://github.com/OliverDixon5/ST10438499_OliverDixon_IMAD5111_Assignment2/assets/164025499/29b13686-0751-433d-91a1-d6e8a74a9d5f)
 
-references...
+-Reference-
+The IIE(pty)(2024) ‘Introduction to mobline application development', The Independent Institute of Education, [accessed 2 May 2024].
