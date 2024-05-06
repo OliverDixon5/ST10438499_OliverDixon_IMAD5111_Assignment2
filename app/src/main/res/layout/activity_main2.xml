@@ -95,7 +95,7 @@
         android:contentDescription="@string/circle_JPG" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/happyCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/play_Score"
@@ -107,7 +107,7 @@
         app:layout_constraintVertical_bias="0.521" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/hungerCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
@@ -117,11 +117,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/happyCount"
         app:layout_constraintVertical_bias="0.448" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/cleanCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/clean_Score"
@@ -129,11 +129,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/hungerCount"
         app:layout_constraintVertical_bias="0.401" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/playButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/play_Button"
@@ -148,7 +148,7 @@
         app:layout_constraintVertical_bias="0.395" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/feedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/feed_Button"
@@ -162,7 +162,7 @@
         app:layout_constraintVertical_bias="0.395" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/cleanButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/clean_Button"
@@ -178,15 +178,16 @@
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/placeholderImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/base_Pet"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.052"
-        android:contentDescription="@string/base_Pet"
         app:srcCompat="@drawable/snoopy_png95" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
